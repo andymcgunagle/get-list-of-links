@@ -1,0 +1,26 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  padding: 1rem 1rem 4rem 1rem;
+}
+
+.wrapper > header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  
+  text-align: center;
+}
+
+.wrapper > header > span {
+  padding: 0.25rem;
+  border-radius: var(--border-radius-md);
+  background-color: var(--clr-danger-200);
+  color: var(--clr-danger-800);
+  border: var(--border-width-2) solid var(--clr-danger-800);
+  font-size: var(--font-size-xs);
+}

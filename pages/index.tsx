@@ -23,7 +23,7 @@ export default function Home() {
       setLoading(true);
       setLinks([]);
 
-      const response = await fetch(`/api/fetch-links`, {
+      const response = await fetch(`/api/get-links`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

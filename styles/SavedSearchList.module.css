@@ -1,0 +1,5 @@
+.noSavedSearches {
+  text-align: center;
+  opacity: 0.5;
+  border: var(--border-width-2) dashed var(--clr-brand-500);
+}

@@ -11,7 +11,7 @@ export default function SearchResults({
   return (
     <>
       {loading && <p className={styles.loading}>Loading...</p>}
-      {links.length !== 0 && <div className={`${styles.wrapper} section-wrapper`}>
+      {links.length !== 0 && <div className={`${styles.wrapper} titled-section-wrapper`}>
         <h2>Results</h2>
         <div className="card">
           {<ul className={styles.list}>

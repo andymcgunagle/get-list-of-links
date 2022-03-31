@@ -18,9 +18,11 @@ export default function SavedSearchList({
   }, [setSavedSearches]);
 
   return (
-    <div className={`${styles.wrapper} section-wrapper`}>
+    <div className={`${styles.wrapper} titled-section-wrapper`}>
       <h2>Saved searches</h2>
       <ul>
+        {savedSearches.length === 0 &&
+          <div className={`${styles.noSavedSearches} card`}>No searches saved yet...</div>}
         {savedSearches.map((search, index) => <SavedSearchCard key={index} {...search} setLinks={setLinks} setLoading={setLoading} />)}
       </ul>
     </div>

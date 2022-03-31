@@ -1,13 +1,13 @@
 .wrapper {
   display: flex;
   flex-direction: column;
-  padding: 1rem;
-  padding-bottom: 4rem;
+  padding: var(--space-2);
+  padding-bottom: var(--space-10);
   max-width: 1600px;
   margin: 0 auto;
 }
 
 .wrapper > h1 {
-  font-size: var(--font-size-4xl);
-  padding-bottom: 0.5rem;
+  font-size: var(--font-size-10);
+  padding-bottom: var(--space-0);
 }

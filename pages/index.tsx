@@ -1,3 +1,5 @@
+import Head from 'next/head';
+
 import SearchResults from './../components/SearchResults';
 import Form from './../components/Form';
 import { ReactElement, useState } from "react";
@@ -18,6 +20,9 @@ export default function Home() {
 
   return (
     <div className={styles.wrapper}>
+      <Head>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+      </Head>
       <Intro />
 
       <main>

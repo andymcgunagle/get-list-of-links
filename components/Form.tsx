@@ -51,7 +51,7 @@ export default function Form({
   };
 
   return (
-    <div className="section-wrapper">
+    <div className="titled-section-wrapper">
       <h2>Get links from...</h2>
       <form onSubmit={handleSubmit} className="card">
         <input

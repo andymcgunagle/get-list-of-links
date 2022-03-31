@@ -1,7 +1,7 @@
 .wrapper {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: var(--space-4);
   
   margin: 0 auto;
 }
@@ -9,7 +9,7 @@
 .wrapper main {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: var(--space-4);
 }
 
 

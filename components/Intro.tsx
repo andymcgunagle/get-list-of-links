@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Intro() {
   return (
-    <div className="section-wrapper">
+    <div className="titled-section-wrapper">
       <h2>Instructions</h2>
       <div className="card">
         <p>

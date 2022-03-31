@@ -37,10 +37,15 @@ export default function SavedSearchCard({
 
 
   return (
-    <div onClick={handleCardClick} className={`${styles.wrapper} card`}>
-      <p>
-        {url}
-      </p>
+    <div onClick={handleCardClick} className={`${styles.wrapper} card side`}>
+      <div>
+        <span className="material-icons icon-circle">
+          search
+        </span>
+        <p>
+          {url}
+        </p>
+      </div>
       <div className={styles.options}>
         <p>
           Limit: {limit}

@@ -1,0 +1,30 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
+  cursor: pointer;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+@media only screen and (min-width: 1280px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    align-items: center;
+    gap: 2rem;
+
+    width: 100%;
+  }
+
+  .options {
+    text-align: right;
+  }
+}

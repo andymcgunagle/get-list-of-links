@@ -1,0 +1,25 @@
+.options {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 2rem;
+  row-gap: 1rem;
+}
+
+.options div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.options div label {
+  text-align: right;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
